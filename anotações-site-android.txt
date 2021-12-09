@@ -1,0 +1,59 @@
+PARA O DOCUMENTO HTML:
+
+Sempre lembrar de editar primeiramente o arquivo HTML como por exemplo:
+HEADER = Tudo o que fica em destaque na parte inicial do site.
+NAV = O menu do seu site. 
+MAIN = Todo o conteúdo do seu site estará aqui.
+ARTICLE = Todo o conteúdo de texto fica dentro daqui.
+Sempre lembrar de colocar o <p> </p> em todo o texto de forma separada para que fique mais fácil a formatação do mesmo.
+ASIDE = Destaque para o seu texto dentro do documento.
+FOOTER = Rodapé do seu site.
+
+
+PARA O DOCUMENTO CSS:
+
+Lembre-se que o CSS trabalha com páginas em cascatas, ou seja, sempre configure seu site de cima para baixo, exemplo: Primeiro o HEADER - após o body - e depois vai seguindo.
+
+Sempre que você for importar algo, coloque após de @charset , por exemplo: Vai exportar muma font? Coloque-a abaixo de @charset.
+
+Use variavéis no seu documento CSS para facilitar a formatação do documento:
+
+@font-face{
+Coloque aqui a fonte que você tem salva em seu computador, pois você fez o down e baixou para guardar na pasta do site que está criando
+}
+
+:root {
+Coloque toda a configuração de cor, fonte, etc aqui dentro, pois assim você poderá trocar fontes, paletas de cores e entre outras coisas de forma mais rápida e fácil.
+}
+
+* {
+É usado para você configurar o seu documento inteiro. Dando prioridade ao que está aqui dentro.
+}
+
+Então você começa a editar o BODY do site para definir aqui o fundo e depois o HEADER e assim vai.
+
+
+RESPONSIVIDADE:
+Você pode definir a largura e a altura do documento TEXTO, exemplo:
+
+min-width: 320px; = Pois 320px é o basicamente a tela de um celular muito pequeno e antigo. Só que ai você tem que lembrar o quanto irá usar de margem, podendo colocar como:
+
+min-width: 280px;
+
+max-width: 800px; = Pois assim se você jogar o documento em uma TV de 50Polegadas ele não irá perder a qualidade.
+
+Lembrando que você tem que usar o MARGIN: AUTO; para que o site fique centralizado e não tenha quebra de qualidade.
+
+Se você definir a a IMG para 100% a imagem acompanha a responsividade do site, exemplo:
+
+img {
+  width: 100%;
+}
+
+cores do site android
+
+#5CF64A
+#87E752
+#43B929
+#242423
+#333533
